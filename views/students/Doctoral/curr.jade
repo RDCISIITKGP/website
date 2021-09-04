@@ -786,7 +786,51 @@ br
         img.rounded-circle.profile-img(src='./img/Students/doctoral/Rishab.jpg', alt='')
         br
         span
-            h5 Rishabh Swarnkar
+            h5 
+                a(data-toggle='modal', data-target='#rishabh',href='#rishabh') Rishabh Swarnkar
+     // Modal
+    #ranjan.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalCenterTitle', aria-hidden='true')
+        .modal-dialog.modal-dialog-centered.modal-dialog-scrollable(role='document')
+            .modal-content
+                .modal-header
+                    h4#exampleModalCenterTitle.modal-title(style='color: #d9534f; font-family:Georgia, serif') Rishabh Swarnkar
+                    button.close(type='button', data-dismiss='modal', aria-label='Close')
+                    img.rounded-circle.float-right(src='./img/profile/Rishabsmall.jpg', alt='')
+                    span(aria-hidden='true') ×
+                .modal-body
+                    br
+                    h5(style='color: #009999; font-family:Georgia, serif') Supervisor
+                    a(href='http://www.fswlab.in/skpal') Prof. Surjya K Pal
+                    br
+                    h5(style='color: #009999; font-family:Georgia, serif') Doctoral Research Problem
+                    p
+                    | Fabrication and microstructural evaluation of high ductile tube through friction stir extrusion (FSE) process
+                    br
+                    br
+                    h5(style='color: #009999; font-family:Georgia, serif') Research Statement
+                    p
+                    | FSE is a severe plastic deformation (SPD) based novel technique. It has been used to consolidate and extrude bulk material, chips, and powdered metal into bulk wire and tube. In this process, a rotating cylindrical flat-faced tool is inserted into the die containing bulk billet or chips with a predefined feed rate. The friction at the tool specimen surface softens the material and is forced to flow radially outward similar to back extrusion. For the wire and rod, the softened material flows through the hole of the tool, and in the case of the tube, the softened material flows through the clearance in between the tool and die. The stirring action of the tool causes the SPD to lead to refined microstructure. It can be used as a solid-state recycling technique for chips and scraps. The process is highly energy efficient as compared to the conventional recycling technique and the permanent material loss is also low, due to reduced oxidation as the material does not reach the melting temperature. On the second side, the fine-grained microstructure pours additional advantages of high corrosion resistance as well as high ductility at room temperature. This extrusion method opens a new door for recycling the scraps and convert them into a finished and semifinished product. The finished product can be utilized in automobile, aerospace, and structural applications. Thus the objective of the work is to successfully extrude the high ductile seamless tubes through the FSE process.
+                    br
+                    br
+                    h5(style='color: #009999; font-family:Georgia, serif') Industrial Application
+                    p
+                    | Tubular Chassis
+                    br
+                    br
+                    img(src='./img/profile/rishab.jpg', alt='')
+                    | Ref:https://grabcad.com/library/tubular-chassis-2
+                    br
+                    br
+                    h5(style='color: #009999; font-family:Georgia, serif') Publications
+                    a(href='http://www.fswlab.in/pub') Link
+                    br
+                    br
+                    h5(style='color: #009999; font-family:Georgia, serif') Quick Links
+                    ul
+                        li
+                            | Email: rishabhswarnkar17@gmail.com
+                .modal-footer
+                    button.btn.btn-secondary(type='button', data-dismiss='modal') Close
     
     .col-md-2.text-center
         img.rounded-circle.profile-img(src='./img/Students/doctoral/Souvik.jpg', alt='')
