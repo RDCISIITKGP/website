@@ -105,6 +105,9 @@ if(window.location.href.indexOf('#vyas') != -1) {
   if(window.location.href.indexOf('#ananta') != -1) {
       $('#ananta').modal('show');
     }
+    if(window.location.href.indexOf('#Rishab') != -1) {
+      $('#Rishab').modal('show');
+    }
   if(window.location.href.indexOf('#Ram') != -1) {
       $('#Ram').modal('show');
     }
